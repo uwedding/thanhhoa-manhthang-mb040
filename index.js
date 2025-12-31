@@ -23,7 +23,7 @@
 // Lưu form vào GG sheet
 
 const GOOGLE_SCRIPT_URL_THAM_DU =
-  "https://script.google.com/macros/s/AKfycbwQYntHJiJ_Cm3cyupt9iyEcPNhURZ9no0MPeWaDFMNu4KMxCdqZ-wiKBqj1zMELovEFw/exec";
+  "https://script.google.com/macros/s/AKfycbyJLZjUo9fwDL4_tUgaiYBOnMxOP67vycXZ8hVi_vl4Pc2-0zSPexS-rynW_ikdQwEbsQ/exec";
 document.querySelector("#form").addEventListener("submit", function (e) {
   e.preventDefault();
   // if (
@@ -105,7 +105,7 @@ function closePopup() {
 </style> */
 }
 
-const sheetID = "1v9fQ2Xg8_LJvN5ewQBaiO3qMMS3W4aSn3bHPdd0pnfI";
+const sheetID = "1nnZB7J-E9KEfsUK6mNs87HZqiFco47qhD-DvmRy-b-Y";
 const url = `https://docs.google.com/spreadsheets/d/${sheetID}/gviz/tq?tqx=out:json`;
 
 let messages = []; // Chuyển sang `let`
